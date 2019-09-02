@@ -165,8 +165,8 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .preloader {
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: -webkit-gradient(linear, right top, left top, from(#3F4FFF), to(#3FC8FF));
+    background: linear-gradient(to left, #3F4FFF, #3FC8FF);
     height: 100%;
     left: 0;
     position: fixed;
@@ -269,8 +269,8 @@ p {
 .navbar-nav .nav-item.download-btn .nav-link {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: -webkit-gradient(linear, right top, left top, from(#3F4FFF), to(#3FC8FF));
+    background: linear-gradient(to left, #3F4FFF, #3FC8FF);
     border-radius: 25px;
     padding: 10px 34px;
     background-size: 100% auto
@@ -344,8 +344,8 @@ p {
     line-height: 40px;
     border-radius: 50%;
     font-size: 16px;
-    background-image: -webkit-gradient( linear, left top, right top, from(#ae0ee9), to(#2e19a7));
-    background-image: linear-gradient( 90deg, #ae0ee9 0%, #2e19a7 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3FC8FF), to(#3F4FFF));
+    background-image: linear-gradient( 90deg, #3FC8FF 0%, #3F4FFF 100%);
     background-size: 100% auto;
     text-align: center;
     border: 1px dashed #fff;
@@ -358,8 +358,8 @@ p {
 }
 
 .caption-btns a.bg {
-    background-image: -webkit-gradient( linear, left top, right top, from(#ae0ee9), to(#2e19a7));
-    background-image: linear-gradient( 90deg, #ae0ee9 0%, #2e19a7 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3FC8FF), to(#3F4FFF));
+    background-image: linear-gradient( 90deg, #3FC8FF 0%, #3F4FFF 100%);
     background-size: 100% auto;
     padding: 12px 30px;
     border-radius: 30px
@@ -382,8 +382,8 @@ p {
     display: block;
     width: 40px;
     height: 40px;
-    background-image: -webkit-gradient( linear, left top, right top, from(#ae0ee9), to(#2e19a7));
-    background-image: linear-gradient( 90deg, #ae0ee9 0%, #2e19a7 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3FC8FF), to(#3F4FFF));
+    background-image: linear-gradient( 90deg, #3FC8FF 0%, #3F4FFF 100%);
     text-align: center;
     line-height: 40px;
     font-size: 20px;
@@ -595,7 +595,7 @@ p {
 
 .load-more-btn a {
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient(90deg, #3FC8FF 0%, #3F4FFF 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     display: inline-block;
@@ -1054,7 +1054,7 @@ p {
     box-shadow: 0px 5px 20px 0px rgba(94, 66, 85, 0.1);
     border-radius: 50%;
     margin: 0 auto;
-    color: #f075c7
+    color: #3F4FFF
 }
 
 .awesome-feat-carousel.dark.owl-carousel .owl-nav > div {
@@ -1252,7 +1252,7 @@ p {
 }
 
 .newsletter-input-bx {
-    border: 1px solid #2e19a7;
+    border: 1px solid #3F4FFF;
     border-radius: 30px;
     position: relative;
 }
@@ -1566,7 +1566,7 @@ p {
     text-transform: uppercase;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
-    background: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background: linear-gradient(90deg, #3FC8FF 0%, #3F4FFF 100%);
     background-size: 100% auto
 }
 
@@ -1662,7 +1662,7 @@ p {
 
 .plan-btn a {
     display: inline-block;
-    background-image: linear-gradient(45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient(90deg, #3FC8FF 0%, #3F4FFF 100%);
     color: #fff;
     padding: 14px 30px;
     border-radius: 30px;
@@ -1724,8 +1724,8 @@ p {
     padding: 25px;
     -webkit-clip-path: ellipse(50% 95% at 50% 97%);
     clip-path: ellipse(50% 95% at 50% 97%);
-    background-image: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-    background-image: linear-gradient( 90deg, #20007e 0%, #e61eb6 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3F4FFF), to(#e61eb6));
+    background-image: linear-gradient( 90deg, #3F4FFF 0%, #3FC8FF 100%);
 }
 
 .team-social.two {
@@ -2142,8 +2142,8 @@ p {
 }
 
 .card-body {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3F4FFF), to(#3FC8FF));
+    background-image: linear-gradient( 90deg, #3F4FFF, #3FC8FF 100%);
     border-radius: 0 0 10px 10px;
     padding: 0 30px 10px 30px
 }
@@ -2200,7 +2200,7 @@ p {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #2e19a7;
+    border-color: #3F4FFF;
     -webkit-box-shadow: 0 0;
     box-shadow: 0 0;
     background-color: transparent
@@ -2218,7 +2218,7 @@ p {
     font-size: 14px;
     font-weight: 700;
     border-radius: 5px;
-    background-image: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient(90deg, #3FC8FF 0%, #3F4FFF 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border: 0;
@@ -2276,7 +2276,7 @@ p {
 .get-started {
     border-radius: 5px;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: linear-gradient( 90deg, #3F4FFF 0%, #3FC8FF 100%);
     -webkit-box-shadow: 0px 10px 10px 0px rgba(2, 2, 2, 0.25);
     box-shadow: 0px 10px 10px 0px rgba(2, 2, 2, 0.25);
     padding: 50px 30px;
@@ -2301,7 +2301,7 @@ p {
     display: inline-block;
     float: right;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 90deg, #3FC8FF 0%, #3F4FFF 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     color: #fff;
@@ -2464,7 +2464,7 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #2e19a7;
+    background-color: #3F4FFF;
     color: #fff;
     width: 65px;
     height: 76px;
@@ -2577,7 +2577,7 @@ p {
 }
 
 .sidebar-widget button {
-    background-image: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient(90deg, #3FC8FF 0%, #3F4FFF 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     border: 0;
@@ -2613,7 +2613,7 @@ p {
 }
 
 .sidebar-widget.tags li a:hover {
-    background-image: linear-gradient( 45deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient(90deg, #3FC8FF 0%, #3F4FFF 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     color: #fff
@@ -2907,8 +2907,8 @@ p {
     border-radius: 30px;
     font-weight: 500;
     margin: 30px 0 0;
-    background: -webkit-gradient(linear, right top, left top, from(#2e19a7), to(#ae0ee9));
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: -webkit-gradient(linear, right top, left top, from(#3F4FFF), to(#3FC8FF));
+    background: linear-gradient(to left, #3F4FFF, #3FC8FF);
     background-size: 100% auto
 }
 
