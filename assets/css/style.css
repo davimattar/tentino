@@ -54,6 +54,15 @@ body {
     position: relative;
     overflow-x: hidden;
 }
+::-webkit-scrollbar-thumb {
+ border-radius: 15px;
+ background-color: #3F4FFF;
+}
+
+::-webkit-scrollbar {
+ width: 9px;
+ height: 5px;
+}
 
 .version-drak {
     background-color: #040940
@@ -227,7 +236,7 @@ p {
     width: 100%;
     z-index: 9999;
     background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-    background: linear-gradient( 90deg, #20007e 0%, #e61eb6 100%);
+    background: linear-gradient( 90deg, #20007e 0%, #3FC8FF 100%);
     padding: 20px 0;
     -webkit-box-shadow: 0 0 10px #111;
     box-shadow: 0 0 10px #111
@@ -491,6 +500,11 @@ p {
 }
 
 .core-feature-single.four .icon {
+    background-color: #ecae19
+}
+
+}
+.core-feature-single.five .icon {
     background-color: #ecae19
 }
 
@@ -1019,6 +1033,18 @@ p {
 }
 
 .awesome-feat-single .icon.three {
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(63, 47, 188)), to(rgb(2, 217, 223)));
+    background-image: linear-gradient( 90deg, rgb(63, 47, 188) 0%, rgb(2, 217, 223) 100%);
+    -webkit-box-shadow: 0px 8px 10px 0px rgba(2, 217, 223, 0.4);
+    box-shadow: 0px 8px 10px 0px rgba(2, 217, 223, 0.4);
+}
+.awesome-feat-single .icon.four {
+    background-image: -webkit-gradient( linear, left top, right top, from(rgb(63, 47, 188)), to(rgb(2, 217, 223)));
+    background-image: linear-gradient( 90deg, rgb(63, 47, 188) 0%, rgb(2, 217, 223) 100%);
+    -webkit-box-shadow: 0px 8px 10px 0px rgba(2, 217, 223, 0.4);
+    box-shadow: 0px 8px 10px 0px rgba(2, 217, 223, 0.4);
+}
+.awesome-feat-single .icon.five {
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(63, 47, 188)), to(rgb(2, 217, 223)));
     background-image: linear-gradient( 90deg, rgb(63, 47, 188) 0%, rgb(2, 217, 223) 100%);
     -webkit-box-shadow: 0px 8px 10px 0px rgba(2, 217, 223, 0.4);
@@ -2914,4 +2940,20 @@ p {
 
 .demo-header-cont a:hover {
     background-size: 200% auto
+}
+
+.photo-team {
+        max-height: 100%;
+}
+
+.card-height{
+    height: 414px;
+    min-height: 414px;
+    max-height: 414px;
+}
+
+.feature-height{
+    height: 460px;
+    min-height: 460x;
+    max-height: 460px;
 }
