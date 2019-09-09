@@ -56,7 +56,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
  border-radius: 15px;
- background-color: #3F4FFF;
+ background-color: #3FC8FF;
 }
 
 ::-webkit-scrollbar {
@@ -304,7 +304,7 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 #home-area.bg-1 {
-    background-image: url(../images/home-bg-1.png);
+    background-image: url(../images/Artboard-14.1.png);
     background-repeat: no-repeat;
     background-position: bottom;
     margin-bottom: 10px
@@ -453,7 +453,7 @@ p {
 }
 
 #core-feature-area.bg-1 {
-    background-image: url(../images/feature-bg-1.png);
+    background-image: url(../images/feature-bg-1.1.png);
 }
 
 #core-feature-area.bg-2 {
@@ -744,7 +744,7 @@ p {
 }
 
 #video-area.bg-1 {
-    background-image: url(../images/counter-bg-1.png)
+    background-image: url(../images/counter-bg-1.1.png)
 }
 
 #video-area.bg-2 {
@@ -953,7 +953,7 @@ p {
 }
 
 #awesome-feat-area.bg-1 {
-    background-image: url(../images/awesome-feat-bg-1.png)
+    background-image: url(../images/awesome-feat-bg-1.svg)
 }
 
 #awesome-feat-area.bg-2 {
@@ -1004,7 +1004,7 @@ p {
 }
 
 .awesome-feat-single {
-    background-image: linear-gradient( 160deg, rgb(255, 255, 255) 53%, rgb(251, 220, 244) 100%);
+    background-image: linear-gradient( 160deg, rgb(255, 255, 255) 53%, #91DBF2 100%);
     -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     border-radius: 22px;
@@ -1150,7 +1150,7 @@ p {
     padding: 112px 0 410px;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(../images/how-work-bg-1.png)
+    background-image: url(../images/how-work-bg-1.svg)
 }
 
 #how-work-area.bg-1 {
@@ -1679,7 +1679,7 @@ p {
 }
 
 .custom-plan-wrap.bg-1 {
-    background-image: url(../images/custom-plan-bg-1.png);
+    background-image: url(../images/custom-plan-bg-1.1.png);
 }
 
 .custom-plan-wrap.bg-2 {
@@ -2093,7 +2093,7 @@ p {
 }
 
 #faq-area.bg-1 {
-    background-image: url(../images/faq-bg-1.png)
+    background-image: url(../images/faq-bg-1.1.png)
 }
 
 #faq-area.bg-2 {
@@ -2197,7 +2197,7 @@ p {
 }
 
 #contact-area.bg-1 {
-    background-image: url(../images/contact-bg-1.png);
+    background-image: url(../images/contact-bg-2.1.png);
 }
 
 #contact-area.bg-2 {
@@ -2292,7 +2292,7 @@ p {
 }
 
 #footer.bg-1 {
-    background-image: url(../images/footer-bg-1.png);
+    background-image: url(../images/footer-bg-1.1.png);
 }
 
 #footer.bg-2 {
@@ -2302,7 +2302,7 @@ p {
 .get-started {
     border-radius: 5px;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, #3F4FFF 0%, #3FC8FF 100%);
+    background-image: linear-gradient( 90deg, #20007e 0%, #3FC8FF 100%);
     -webkit-box-shadow: 0px 10px 10px 0px rgba(2, 2, 2, 0.25);
     box-shadow: 0px 10px 10px 0px rgba(2, 2, 2, 0.25);
     padding: 50px 30px;
@@ -2500,7 +2500,7 @@ p {
     line-height: 26px;
     padding: 12px 0 0;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 90deg, #20007e 0%, #3FC8FF 100%);
 }
 
 .post-media .date span {
@@ -2702,7 +2702,7 @@ p {
 
 .post-cont blockquote {
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background-image: linear-gradient( 90deg, #20007e 0%, #3FC8FF 100%);
     padding: 65px 70px 50px;
     margin: 70px 0 50px;
     position: relative
@@ -2860,7 +2860,7 @@ p {
     padding: 18px 46px;
     border-radius: 4px;
     background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: linear-gradient( 90deg, #3FC8FF 0%, #3F4FFF 100%);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     margin: 25px 0 0;
