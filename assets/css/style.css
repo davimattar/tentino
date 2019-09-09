@@ -236,27 +236,41 @@ p {
     width: 100%;
     z-index: 9999;
     background: -webkit-gradient( linear, left top, right top, from(#20007e), to(#e61eb6));
-    background: linear-gradient( 90deg, #20007e 0%, #3FC8FF 100%);
+    background: linear-gradient( 90deg, #fff 0%, #fff 100%);
     padding: 20px 0;
     -webkit-box-shadow: 0 0 10px #111;
     box-shadow: 0 0 10px #111
+  
 }
 
 #header.two.sticky {
     background: linear-gradient( 30deg, rgb(157, 91, 254) 0%, rgb(56, 144, 254) 100%);
+
 }
 
 #header.sticky .navbar {
     background-color: transparent;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-}
 
+ }
 .navbar-nav .nav-link {
     color: #fff;
     font-weight: 500;
     position: relative;
-    font-size: 16px
+    font-size: 14px
+}
+
+.sticky .logoContainer .logoTentino {
+    content: url(../images/tentino_logo.png)
+}
+
+.sticky .navbar-nav .nav-link {
+    color: #0b5394;
+    font-weight: 500;
+    position: relative;
+    font-size: 14px
+
 }
 
 .navbar-nav .nav-item {
@@ -273,6 +287,18 @@ p {
     width: 15px;
     margin: 0 auto;
     border-bottom: 2px dotted #fff;
+}
+
+.sticky .navbar-nav .nav-link.active:after,
+.sticky .navbar-nav .nav-link:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    width: 15px;
+    margin: 0 auto;
+    border-bottom: 2px dotted #0b5394;
 }
 
 .navbar-nav .nav-item.download-btn .nav-link {
