@@ -479,7 +479,7 @@ p {
 }
 
 #core-feature-area.bg-1 {
-    background-image: url(../images/feature-bg-1.1.png);
+
 }
 
 #core-feature-area.bg-2 {
@@ -1115,8 +1115,8 @@ p {
 
 .awesome-feat-carousel.owl-carousel .owl-nav > div:hover {
     -webkit-box-shadow: 0px 12px 20px 0px rgba(240, 117, 199, 0.4);
-    box-shadow: 0px 12px 20px 0px rgba(240, 117, 199, 0.4);
-    background: linear-gradient( 55deg, rgb(240, 117, 199) 0%, rgb(145, 145, 255) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3FC8FF), to(#3F4FFF));
+    background-image: linear-gradient( 90deg, #3FC8FF 0%, #3F4FFF 100%);
     color: #fff
 }
 
@@ -1173,10 +1173,10 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 #how-work-area {
-    padding: 112px 0 410px;
+    padding: 11px 0 41px;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-image: url(../images/how-work-bg-1.svg)
+
 }
 
 #how-work-area.bg-1 {
@@ -1490,8 +1490,8 @@ p {
     width: 160px;
     height: 50px;
     background: #ff4089;
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(174, 14, 233)), to(rgb(46, 25, 167)));
-    background-image: linear-gradient( 90deg, rgb(174, 14, 233) 0%, rgb(46, 25, 167) 100%);
+    background-image: -webkit-gradient( linear, left top, right top, from(#3F4FFF), to(#3FC8FF));
+    background-image: linear-gradient(to left, #3F4FFF, #3FC8FF) 100%);
     -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
     left: -1px;
@@ -1637,7 +1637,7 @@ p {
 }
 
 .table-inner h4 {
-    color: #cc3214;
+    color: #0084ff;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
@@ -2155,8 +2155,8 @@ p {
 
 .card .card-header.active,
 .card .card-header:hover {
-    background-image: -webkit-gradient( linear, left top, right top, from(rgb(32, 0, 126)), to(rgb(230, 30, 182)));
-    background-image: linear-gradient( 90deg, rgb(32, 0, 126) 0%, rgb(230, 30, 182) 100%);
+    background: -webkit-gradient(linear, right top, left top, from(#3F4FFF), to(#3FC8FF));
+    background: linear-gradient(to left, #3F4FFF, #3FC8FF);
 }
 
 .card.two .card-header.active,
@@ -2166,7 +2166,7 @@ p {
 
 .card .card-header.active a,
 .card .card-header:hover a,
-.card-body p,
+.card-body p, 
 .card.v-dark .card-header a {
     color: #fff
 }
@@ -2175,7 +2175,7 @@ p {
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
-    color: #000;
+    color: #0084ff;
     display: block;
     padding: 20px 30px;
     position: relative
