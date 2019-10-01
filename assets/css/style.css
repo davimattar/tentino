@@ -2987,3 +2987,124 @@ p {
     min-height: 460x;
     max-height: 460px;
 }
+
+.text-white {
+    color: #ffffff;
+}
+
+.contact-item {
+    margin: 11px 0 16px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    font-size: 32px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #fff
+}
+
+.contact-content {
+    display: inline-block;
+    line-height: 21px;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.contact-content a {
+    color: #c0392b;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px
+}
+
+/* ==========================================================================
+   13. MOBILE DOWNLOAD SECTION
+========================================================================== */ 
+.mobile-download h3{
+    margin-top: 135px;
+}
+
+.mobile-text {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 2h0px;
+    font-weight: 400;
+}
+
+.mobile-download .btn-color {
+    margin-top: 20px;
+}
+
+.mobile-download .btn-color:hover {
+    background-color: #3e3e3e;
+    border-color: #3e3e3e;
+    color: #ffffff;
+}
+
+.mobile-download .shot-container {
+    background: url("../images/app-screenshots/smartphone.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin: 0 auto 0;
+    height: 595px;
+    position: relative;
+}
+
+#owl-carousel-shots-phone {
+    height: 600px;
+    width: 244px;
+    margin: 0 auto;
+}
+
+#owl-carousel-shots-phone .owl-wrapper-outer {
+    height: 600px;
+    width: 240px;
+    margin-left: 4px
+}
+
+#owl-carousel-shots-phone .owl-item {
+    margin-top: 89px;
+    opacity: 0.2;
+    padding: 0;
+}
+
+#owl-carousel-shots-phone .owl-item.active {
+    opacity: 1;
+}
+
+#owl-carousel-shots-phone .img-shots-container img {
+    margin: 0 auto;
+}
+
+#owl-carousel-shots-phone .owl-controls .owl-buttons div {
+    background: none;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+}
+
+#owl-carousel-shots-phone .owl-controls .owl-buttons .owl-prev {
+    left: -100px;
+    top: 200px;
+}
+
+#owl-carousel-shots-phone .owl-controls .owl-buttons .owl-next {
+    right: -100px;
+    top: 200px;
+}
+
+.mobile-download .right-features {
+    margin-top: 120px;
+}
+
+.mobile-download .right-features h4{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.mobile-download .description{
+    margin-bottom: 35px;
+}
+
