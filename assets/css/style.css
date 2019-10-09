@@ -519,11 +519,11 @@ p {
 }
 
 .core-feature-single.two .icon {
-    background-color: #693cb8
+    background-color: #3F4FFF
 }
 
 .core-feature-single.three .icon {
-    background-color: #4dd1ed
+    background-color: #3FB2FF
 }
 
 .core-feature-single.four .icon {
@@ -593,19 +593,19 @@ p {
 }
 
 .core-feature-single.two:hover {
-    background-color: #693cb8;
+    background-color: #3FB2FF;
 }
 
 .core-feature-single.two:hover .icon {
-    color: #693cb8;
+    color: #3FB2FF;
 }
 
 .core-feature-single.three:hover {
-    background-color: #3fb3cc
+    background-color: #3FB2FF
 }
 
 .core-feature-single.three:hover .icon {
-    color: #4dd1ed
+    color: #3FB2FF
 }
 
 .core-feature-single.four:hover {
