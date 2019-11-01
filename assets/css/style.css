@@ -265,6 +265,10 @@ p {
     content: url(../images/tentino_logo.png)
 }
 
+.sticky .logoContainer .logoTentino .logo-secondary {
+    content: url(../images/tentino_logo.png)
+}
+
 .sticky .navbar-nav .nav-link {
     color: #0b5394;
     font-weight: 500;
@@ -563,7 +567,7 @@ p {
 }
 
 .core-feature-single.two .icon:before {
-    background-color: rgba(105, 60, 184, 0.2);
+    background-color:  rgba(7, 89, 196, 0.5);
 }
 
 .core-feature-single.two .icon:after {
