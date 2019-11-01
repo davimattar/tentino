@@ -3112,3 +3112,292 @@ p {
     margin-bottom: 35px;
 }
 
+/* ==========================================================================
+   06. SECTIONS SECTIONS
+========================================================================== */ 
+/*------------------------------------------*/
+/*   About - Intro Features
+/*------------------------------------------*/
+.intro-features {
+    text-align: center;
+}
+
+.intro-features .icon-lg{
+    margin-bottom: 20px;
+}
+
+.wrapper-lg{
+    padding: 120px 0;
+
+.large{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-align: center;
+}    
+
+/*==========================================================================
+   03. BUTTONS & ICONS
+========================================================================== */ 
+.btn {
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 14px 28px 13px 28px;
+    border:2px solid;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn>i {
+    font-size: 15px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+
+.btn-box {
+    padding:20px 0;
+}
+
+/*------------------------------------------*/
+/*   Buttons Color
+/*------------------------------------------*/
+.btn-ghost {
+    background: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-ghost:hover {
+    background: #ffffff;
+    color: #3e3e3e;
+    border-color: #ffffff;
+}
+
+.btn-white {
+    background: #ffffff;
+    color: #c0392b;
+    border-color: #ffffff;
+}
+
+.btn-white:hover {
+    background: #c0392b;
+    color: #3e3e3e;
+    border-color: #c0392b;
+}
+
+.btn-grey {
+    color: #3e3e3e;
+    background-color: transparent;
+    border-color: #7f8c8d;
+}
+
+.btn-grey:hover {
+    color: #3e3e3e;
+    border-color: #3e3e3e;
+    background-color: transparent;
+}
+
+/*------------------------------------------*/
+/*   Icons Style
+/*------------------------------------------*/
+.icon-lgg, .icon-sm {
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    color: #3e3e3e;
+}
+
+.icon-lgg {
+    font-size: 65px;
+}
+
+.icon-sm {
+    font-size: 40px;
+}
+
+
+/*------------------------------------------*/
+/*   Image with Action
+/*------------------------------------------*/
+.img-with-action .btn-color:hover{
+    background: transparent;
+}
+
+.img-with-action .btn-box{
+    padding-bottom: 0;
+}
+
+.img-col-bg{
+    position: absolute;
+    height: 100%;
+    padding: 0;
+    top: 0;
+}
+
+/* light img overlay*/
+.img-col-bg:before{
+    opacity: 0.2;
+    position: absolute;
+    content: ' ';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #b0babf;
+}
+
+.img-right {
+    right: 0;
+    background: url(../images/img-right.png) 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;    
+}
+
+.text-light1 {
+      color:#ddd;
+}
+.wow{visibility: hidden;}
+
+.separator {
+  line-height: 0.5;
+  text-align: center;
+  margin:30px 0 30px 0;
+}
+.separator span {
+  display: inline-block;
+  position: relative;
+ 
+}
+.separator span:before,
+.separator span:after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  top: 5px;
+  width: 300px;
+}
+.separator span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.separator span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.separator span  i{
+font-size:6px;
+padding:0;
+margin:0;
+float:none;
+}
+
+/* divider */
+    /* ------------------------------ */
+    .spacer-single{
+    width:100%;
+    height:30px;
+    display:block;
+    clear:both;
+    }
+    
+    .spacer-double{
+    width:100%;
+    height:60px;
+    display:block;
+    clear:both;
+    }
+    
+    .spacer-half{
+    width:100%;
+    height:15px;
+    display:block;
+    clear:both;
+    }
+    
+    hr {
+    display: block;
+    clear: both;
+    border-top: solid 1px #ddd;
+    margin: 40px 0 40px 0;
+    }
+
+.box-number .number{
+    display:block;
+    font-size:48px;
+    color:#222;
+    width:80px;
+    height:80px;
+    text-align:center;
+    padding:25px;
+    border-radius:60px;
+    position:absolute;
+    }
+    
+    .box-number.square .number{
+    border-radius:0;
+    }
+    
+    .box-number .text{
+    margin-left:100px;
+    }
+    
+    .box-icon .icon{
+    display:block;
+    font-size:48px;
+    color:#222;
+    text-align:center;
+    border-radius:60px;
+    position:absolute;
+
+    header .info .col{
+    display:inline-block;
+    padding:0 15px 0 15px;
+    font-size:11px;
+    letter-spacing:1px;
+    }
+    cursor:default;
+    }
+    
+    .box-icon .text{
+    margin-left:80px;
+    }
+    
+    .box-icon.border{
+    border:solid 1px rgba(255,255,255,.1);
+    padding:40px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    }
+    
+    .box-icon.border.active,
+    .box-icon.border:hover{
+        background:rgba(255,255,255,.1);
+        border-color:rgba(255,255,255,.0);
+    }
+    
+    .box-icon.border a{
+        text-decoration:none;
+    }
